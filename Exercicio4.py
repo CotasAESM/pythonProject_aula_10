@@ -16,7 +16,7 @@ def calcular_e_imprimir_soma_da_expressao():
         soma_expressao += i / m
         m += 2
 
-        if i != n + 1:
+        if i != n:
             expressao_string += " + "
 
     # Imprime a representação final da soma
